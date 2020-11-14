@@ -1,0 +1,207 @@
+.body-container-2 {
+    display: none;
+}
+
+/* extra small devices */
+@media only screen and (max-width: 575.98px) {
+    .body-container-2 {
+        grid-template-rows: 10vh 30vh 60vh;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .body-container-2 {
+        grid-template-rows: 10vh 30vh 60vh;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .body-container-2 {
+        grid-template-rows: 10vh 30vh 60vh;
+        width: 70%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .body-container-2 {
+        grid-template-rows: 10vh 30vh 60vh;
+        width: 70%;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .body-container-2 {
+        grid-template-rows: 10vh 30vh 60vh;
+        width: 70%;
+    }
+}
+
+header {
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#left2 {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#first-paragraph-2 {
+    text-align: center;
+    color: white;
+}
+
+/* extra small devices */
+@media only screen and (max-width: 575.98px) {
+    #first-paragraph-2 {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    #first-paragraph-2 {
+        font-size: 1rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    #first-paragraph-2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    #first-paragraph-2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #first-paragraph-2 {
+        font-size: 1.5rem;
+    }
+}
+
+#paragraph-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#next {
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #00ffb4;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(4, 60px);
+    width: 100%;
+}
+
+.calculator button {
+    background-color: #121617;
+    color: white;
+    border: 1px solid #1e2223;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+/* #total{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-left: 10px;
+} */
+#total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.total-paragraph {
+    display: flex;
+    flex-direction: column;
+}
+/* extra small devices */
+@media only screen and (max-width: 575.98px) {
+    .total-paragraph{
+        font-size: 1rem;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .total-paragraph{
+        font-size: 1rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .total-paragraph{
+        font-size: 1.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .total-paragraph{
+        font-size: 1.5rem;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .total-paragraph{
+        font-size: 1.5rem;
+    }
+}
+
+.result-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin-right: 10px;
+}
+
+#tax {
+    color: #45545a;
+}
+
+#result {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#subtotal {
+    color: white;
+    font-weight: 700;
+}
+
+.total-paragraph span {
+    margin: 10px 0;
+}

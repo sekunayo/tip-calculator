@@ -1,0 +1,57 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #121617;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-container{
+    display: grid;
+    grid-template-rows: 20vh 50vh 20vh;
+}
+header p{
+    color: #00ffb4;
+    font-size: 2rem;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    fill: #00ffb4;
+    height: 70%;
+    width: 70%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #00ffb4;
+    width: 70%;
+    padding: 15px 0;
+    border: none;
+    outline: 0;
+}
+button:focus{
+    border: none;
+    outline: 0;
+}
+button a{
+    color: #121617;
+    text-decoration: none;
+}
