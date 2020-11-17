@@ -99,7 +99,7 @@ header {
 
 #next {
     width: 100%;
-    border: 1px solid transparent;
+    border: 1px solid #00ffb4;
     background-color: #00ffb4;
     padding: 20px 0;
     font-weight: 700;
@@ -118,6 +118,8 @@ header {
     border: 1px solid #1e2223;
     font-size: 1.1rem;
     width: 100%;
+    padding: 0;
+    border-radius: 0;
 }
 
 .calculator-container {
