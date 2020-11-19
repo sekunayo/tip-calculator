@@ -193,6 +193,17 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+}
+.box:hover{
+    background-color: hsl(192, 8%, 13%,0.45);
+    transform: scale(0.8);
+    transition: 1.5s;
+}
+.box:focus{
+    background-color: hsl(192, 8%, 13%,0.45);
+    transform: scale(0.8);
+    transition: 1.5s;
 }
 .box-container{
     display: flex;
